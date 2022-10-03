@@ -36,5 +36,5 @@ module "ALB" {
   vpc_id             = module.vpc.vpc_id
   security_group     = module.vpc.sg_alb
   subnets            = module.vpc.subnet_public
-  instance_public_id = module.ec2.instance_public_id
+  instance_public_id = module.ec2.instance_public_id # test abc xyz
 }
